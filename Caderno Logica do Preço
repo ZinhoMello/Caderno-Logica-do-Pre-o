@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anotações Ob de Sucesso</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f4; /* Fundo cinza claro */
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .notebook {
+            width: 100%;
+            max-width: 800px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            line-height: 1.6;
+            position: relative;
+            /* Estilo de caderno */
+            border-radius: 5px;
+            border-left: 80px solid #a6c0e5; /* Margem esquerda azul/roxa */
+        }
+        h1 {
+            color: #333;
+            border-bottom: 2px solid #a6c0e5;
+            padding-bottom: 10px;
+            margin-top: 0;
+            font-size: 1.8em;
+        }
+        h2 {
+            color: #555;
+            border-bottom: 1px dashed #ccc;
+            padding-bottom: 5px;
+            margin-top: 25px;
+            font-size: 1.4em;
+        }
+        h3 {
+            color: #008080; /* Teal para sub-títulos */
+            font-size: 1.2em;
+            margin-top: 15px;
+        }
+        p, li {
+            color: #333;
+        }
+        ul {
+            list-style-type: none; /* Remove bullet points padrão */
+            padding-left: 0;
+        }
+        ul li {
+            padding-left: 15px;
+            position: relative;
+            margin-bottom: 10px;
+        }
+        ul li::before {
+            content: '•'; /* Bullet point personalizado */
+            color: #fa8072; /* Cor de destaque */
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+        strong {
+            color: #cc0000; /* Destaque em vermelho */
+        }
+        .image-container {
+            margin-top: 30px;
+            text-align: center;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="notebook">
+        <h1>📝 CADERNO DE ANOTAÇÕES</h1>
+        
+        <h2>LÓGICA DO PREÇO OB DE SUCESSO</h2>
+
+        <hr>
+
+        <h2>AULA 1 - DOMÍNIO, ESTRUTURA DO MERCADO E POSICIONAMENTO</h2>
+
+        <h3>Marcação de Domínio no Posicionamento</h3>
+        <ul>
+            <li>No **Corpo da Vela**: Marcamos com a **mesma cor** da vela de reversão.</li>
+            <li>No **Pavio**: Vamos **inverter as cores**.
+                <ul>
+                    <li>Pavio Verde (Compra): Marcação **Vermelha (Venda)**.</li>
+                    <li>Pavio Vermelho (Venda): Marcação **Verde (Compra)**.</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h3>Liquidez e Interesse do Preço</h3>
+        <ul>
+            <li>Para saber se o preço tem interesse de **buscar uma região ou reverter**, ele precisa ter **liquidez**.</li>
+            <li>**Reversão para Baixo (Venda):** Precisa ter **Liquidez de Venda** (Pavio Vermelho).</li>
+            <li>**Reversão para Cima (Compra):** Precisa ter **Liquidez de Compra** (Pavio Verde).</li>
+        </ul>
+
+        <h3>Confirmação de Rompimento e Entrada</h3>
+        <ul>
+            <li>Quando o preço **romper a região marcada**, é preciso aguardar a **confirmação**.</li>
+            <li>**Confirmação (Continuação da Tendência):** É quando a vela seguinte faz outra vela **da mesma cor** que a vela que rompeu.</li>
+            <li>**Entrada Boa (Pullback):** O próximo preço precisa **rejeitar a zona que foi rompida**.</li>
+            <li>O preço sempre precisa se **conectar com o lote** e **demonstrar interesse** de ir buscar liquidez.</li>
+        </ul>
+
+        <h3>Conexão com o Lote de Liquidez</h3>
+        <p>Para o preço buscar uma liquidez, ele precisa se **conectar com o lote responsável** dessa liquidez para ter interesse de buscá-la.</p>
+
+        <hr>
+
+        <h2>Zonas Fortes</h2>
+        
+        <h3>Regiões de Reversão após Rompimento</h3>
+        <p>Quando o preço **rompe** uma região, a **zona de origem** de onde o preço começou a se movimentar para o rompimento se torna uma **zona forte de reversão** ou de **suporte/resistência**. Isso ocorre porque essa área representa o ponto onde começou a força do movimento.</p>
+
+        <div class="image-container">
+            <img src="https://i.ibb.co/5xwZS07P/Captura-de-tela-2025-11-16-150536.png" alt="Gráfico de Ação de Preço com Zonas de Suporte e Resistência/Oferta e Demanda">
+        </div>
+
+    </div>
+
+</body>
+</html>
